@@ -1,38 +1,30 @@
-# sv
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# Todos
 
-## Creating a project
+- Create a page to get some initial data
+  - Gender (because maybe relevant for life expectancy)
+  - Birthdate
+  - Store this data in localstorage
+  - Create a button to start over
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Redirect to initial data page
 
-```sh
-# create a new project in the current directory
-npx sv create
+- Create a Mockup
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Do some really nice styling
 
-## Developing
+- Add some links to my github
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Show how I am collecting data (not at all)
 
-```sh
-npm run dev
+- Deploy to github pages
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+# Get started with this Project
 
 ```sh
-npm run build
+# Get dependencies
+bun install
+
+# Run as dev
+bun run dev -- --open
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
