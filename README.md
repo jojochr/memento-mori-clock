@@ -1,4 +1,3 @@
-
 # Todos
 
 - Create a page to get some initial data

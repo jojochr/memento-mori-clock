@@ -17,7 +17,7 @@
 	});
 
 	let barWidthInPercent: number | null = $derived(
-		(now.getTime() - startDate.getTime()) / (endDate.getTime() - startDate.getTime()) * 100
+		((now.getTime() - startDate.getTime()) / (endDate.getTime() - startDate.getTime())) * 100
 	);
 </script>
 
